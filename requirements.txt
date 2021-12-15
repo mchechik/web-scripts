@@ -1,0 +1,37 @@
+Babel==2.6.0
+# billiard is a celery dep we need to pin in to this vesion
+# until https://github.com/celery/billiard/issues/260 is resolved
+billiard==v3.5.0.4
+bleach==3.0.2
+blinker==1.4.0
+bloom_filter==1.3.0
+cachetools==3.1.1
+celery==4.2.1
+dnspython==1.15.0
+flask==1.0.2
+geohash2==1.1
+geopy==1.17.0
+google-auth==1.6.1
+google-cloud-bigquery==1.7.0
+google-cloud-bigtable==0.31.0
+google-cloud-storage==1.13.0
+grpcio==1.29.0
+gunicorn==19.9.0
+htmlmin==0.1.12
+itsdangerous==1.1.0
+kombu==4.2.1
+markdown2==2.3.7
+pillow==5.3.0
+pygtrie==2.3.2
+psycopg2-binary==2.7.6.1
+pyseeyou==0.5.0
+python-dateutil==2.7.5
+pytz==2018.7
+raven[flask]==6.9.0
+redis==2.10.6
+requests[security]==2.20.1
+sendgrid==5.6.0
+simplejson==3.16.0
+slackclient==1.3.0
+unicodecsv==0.14.1
+spotify-hermes-python3==0.3.2
